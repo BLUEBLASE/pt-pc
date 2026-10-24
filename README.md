@@ -1,10 +1,24 @@
+<div align="center">
+
 # P.T. for PC
 
-> **Bug reports:** I've closed GitHub Issues because of ongoing spam attacks. Please join the [Discord server](https://discord.gg/3vKwUf2eTb) to report bugs.
+**A native PC port of P.T., the 2014 PS4 teaser by Kojima Productions. Windows, Linux and macOS.**
+
+<a href="https://www.patreon.com/loreanxavier"><img src="https://img.shields.io/badge/Support%20the%20port%20on%20Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white" alt="Support the port on Patreon" height="48"></a>
+
+<a href="https://github.com/LoreanXavier/pt-pc/releases/latest"><img src="https://img.shields.io/github/v/release/LoreanXavier/pt-pc?style=for-the-badge&label=Download&color=2b2b2b" alt="Download the latest release"></a>
+<a href="https://github.com/LoreanXavier/pt-pc/releases"><img src="https://img.shields.io/github/downloads/LoreanXavier/pt-pc/total?style=for-the-badge&color=2b2b2b" alt="Downloads"></a>
+<a href="https://discord.gg/3vKwUf2eTb"><img src="https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
 
 ![Lisa in the hallway](docs/media/lisa.gif)
 
-If the port is worth something to you, you can support me on Patreon: [patreon.com/loreanxavier](https://www.patreon.com/loreanxavier). It keeps the testing hardware and the releases coming.
+</div>
+
+> [!IMPORTANT]
+> **This port is made by one person in their spare time.** If it gave you a good scare, please consider supporting it on [**Patreon**](https://www.patreon.com/loreanxavier). It pays for the testing hardware and keeps the updates coming.
+
+> [!NOTE]
+> **Bug reports:** I've closed GitHub Issues because of ongoing spam attacks. Please join the [Discord server](https://discord.gg/3vKwUf2eTb) to report bugs.
 
 This is a native PC port of P.T., the 2014 PS4 teaser by Kojima Productions. It is not an emulator. The game logic was
 rebuilt in C++ from the original's behaviour, with Vulkan and DirectX 12 renderers; every level, model, texture, sound,
@@ -144,6 +158,12 @@ helper in C# that reads fake PKGs with LibOrbisPkg. docs/installer.md describes 
 
 Other docs: docs/upscaling.md, docs/vr.md, docs/updates.md, and the file format notes in docs/formats/ that came out of
 reverse engineering the game data, with the tools in tools/ that read those formats.
+
+## Support the port
+
+<a href="https://www.patreon.com/loreanxavier"><img src="https://img.shields.io/badge/Become%20a%20patron-F96854?style=for-the-badge&logo=patreon&logoColor=white" alt="Become a patron" height="40"></a>
+
+Every release is built, tested on real hardware and checked against the PS4 by hand. Patreon support is what makes that possible: new GPUs and handhelds to test on, the Mac and Steam Deck work, and the time to keep fixing what players report. Thank you to everyone who already helps.
 
 ## Thanks
 
